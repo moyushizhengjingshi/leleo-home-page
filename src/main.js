@@ -1,3 +1,4 @@
+//加载路由 引入各种文件各种类
 import { createApp } from 'vue'
 import App from './App.vue'
 
