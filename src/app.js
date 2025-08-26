@@ -70,6 +70,7 @@ export default {
 
     };
   },
+  
   async mounted() {
     if(import.meta.env.VITE_CONFIG){
       this.configdata = JSON.parse(import.meta.env.VITE_CONFIG);

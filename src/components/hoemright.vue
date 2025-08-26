@@ -65,7 +65,7 @@
           </v-row>
           
           <v-chip class="mt-3 ml-3" prepend-icon="mdi-webhook"  size="large" style="color: var(--leleo-vcard-color);">
-            部署项目
+            项目
           </v-chip>
           <v-container>
             <v-row>
@@ -125,9 +125,9 @@ import { useDisplay } from 'vuetify'
 
 export default {
     components: {
-        typewriter,turntable
+        typewriter,turntable    //引入子组件 打字机效果技能转盘
     },
-    props: ['configdata','formattedTime','formattedDate','projectcards'],
+    props: ['configdata','formattedTime','formattedDate','projectcards'],  //接收父组件数据
 	data() {
 		return {
 			searchQuery: '',

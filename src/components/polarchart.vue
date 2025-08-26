@@ -44,7 +44,7 @@ export default {
         data: {
           labels: this.skills,
           datasets: [{
-            label: '技能点',
+            label: '时长占比',
             data: this.skillPoints,
             backgroundColor: colors,
             borderColor: colors.map(color => color.replace('0.6', '1')),
@@ -75,7 +75,7 @@ export default {
                 label: function(context) {
                   const label = context.label || '';
                   const value = context.raw || '';
-                  return `${label}: ${value} 技能点`;
+                  return `${label}: ${value} 时长占比`;
                 },
                 title: function(context) {
                   return `${context[0].label}`;
