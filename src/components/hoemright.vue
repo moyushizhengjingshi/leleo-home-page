@@ -65,50 +65,62 @@
           </v-row>
           
           <v-chip class="mt-3 ml-3" prepend-icon="mdi-webhook"  size="large" style="color: var(--leleo-vcard-color);">
-            项目
+            历程
           </v-chip>
+					<!-- 最外层布局 -->
           <v-container>
+						<!-- 添加行容器 -->
             <v-row>
+							<!-- 添加列容器  极小屏幕下设置6内边距-->
               <v-col
                 v-for="(item,key) in projectcards"
                 cols="6"
                 md="4"
                 lg="3"
-                :style="xs?{'padding': '6px'}:{}"
+                 :style="xs?{'padding': '20px'}:{}" 
               >
-                <v-card class="">
-                  <v-img
-                    aspect-ratio="1.7778"
-                    :src= item.img
-                    cover
-                    :style="{ opacity: 0.8 }"
-                  ></v-img>
-                  <v-card-title :style="xs?{'font-size': '0.9rem','padding': '0.15rem 0.5rem'}:{'font-size': '1.1rem','padding':'0.2rem 0.8rem'}">
-                    {{item.title}}
-                  </v-card-title>
-                  <v-card-subtitle :style="xs?{'font-size': '0.6rem','padding': '0.1rem 0.5rem'}:{'font-size': '0.8rem','padding':'0.15rem 0.6rem'}">
-                    {{ item.subtitle }}
-                  </v-card-subtitle>
-
-                  <v-card-actions :style="xs||sm||md?{'padding': '0','min-height': '0','height':'2.5rem'}:{'min-height': '0','height':'2.8rem'}">
-                    <v-btn :href="item.url"
-                    target="_blank"
-                      :text= "item.go"
-                    ></v-btn>
-                    <v-spacer></v-spacer>
-                    <v-btn
-                      :icon="item.show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-                      @click="item.show = !item.show;projectcardsShow(key);"
-                    ></v-btn>
-                  </v-card-actions>
-                  <v-expand-transition>
+							<!-- 添加组件卡片 -->
+              <v-card class="">
+								<!-- 组件中的照片设置长宽比 照片地址 填充 透明度 -->
+                <v-img
+                  aspect-ratio="1.1575"
+                  :src= item.img
+                  cover
+                  :style="{ opacity: 0.8 }"
+                ></v-img>
+								<!-- 标题 根据屏幕设置内边距 -->
+                <v-card-title :style="xs?{'font-size': '0.9rem','padding': '0.15rem 0.5rem'}:{'font-size': '1.1rem','padding':'0.2rem 0.8rem'}">
+                  {{item.title}}
+                </v-card-title>
+								<!-- 副标题 -->
+                <v-card-subtitle :style="xs?{'font-size': '0.6rem','padding': '0.1rem 0.5rem'}:{'font-size': '0.8rem','padding':'0.15rem 0.6rem'}">
+                  {{ item.subtitle }}
+                </v-card-subtitle>
+								<!-- 卡片操作 -->
+                <v-card-actions :style="xs||sm||md?{'padding': '0','min-height': '0','height':'2.5rem'}:{'min-height': '0','height':'2.8rem'}">
+                 <!-- 跳转按钮设置  跳转链接 新窗口打开 跳转图标-->
+									<v-btn :href="item.url"
+                  target="_blank"
+                    :text= "item.go"
+                  ></v-btn>
+									<!-- 填充组件 右边元素推到最右边 -->
+									 
+                  <v-spacer></v-spacer>
+									<!-- 折叠按钮 -->
+                  <v-btn
+                    :icon="item.show ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+                    @click="item.show = !item.show;projectcardsShow(key);"
+                  ></v-btn>
+                </v-card-actions>
+								<!-- 展开折叠的动画过度 -->
+              	<v-expand-transition>
                     <div v-show="item.show">
                       <v-divider></v-divider>
                       <v-card-text :style="xs?{'font-size': '0.7rem'}:{}">
                         {{item.text}}
                       </v-card-text>
                     </div>
-                  </v-expand-transition>
+                </v-expand-transition>
                 </v-card>
               </v-col>
             </v-row>

@@ -1,63 +1,31 @@
 # leleo-home-page 个人主页
 
 ## 目录
-- [项目简介](#项目简介)
-- [功能特性](#功能特性)  
-- [演示地址](#演示地址)
-- [技术栈](#技术栈)
-- [安装与运行](#安装与运行)
-  - [本地运行](#本地运行)
-  - [Vercel在线部署](#vercel在线部署)
-  - [CloudFlare Pages 在线部署](#cloudflare-pages-在线部署)
-- [修改配置](#修改配置)
+- [leleo-home-page 个人主页](#leleo-home-page-个人主页)
+  - [目录](#目录)
+  - [技术栈](#技术栈)
+    - [本地运行](#本地运行)
+    - [Vercel在线部署](#vercel在线部署)
+    - [CloudFlare Pages 在线部署](#cloudflare-pages-在线部署)
+  - [修改配置](#修改配置)
+    - [方法1. 修改配置文件](#方法1-修改配置文件)
+    - [方法2. 在线修改环境变量](#方法2-在线修改环境变量)
+      - [vercel部署](#vercel部署)
+      - [CloudFlare部署](#cloudflare部署)
 
-
-## 项目简介
-
-这是一个简单的个人主页项目，用于展示个人信息、技能、项目等。主页设计简洁、响应式，适合在不同设备上浏览。支持自定义配置。
-
-<img src="./img/leleo-home-page/1737532219807.png" width="600" alt="桌面端预览" style="display: block; margin: 10px auto;border-radius:8px;">
-<img src="./img/leleo-home-page/1737533474493.png" width="170" alt="移动端预览" style="display: block; margin: 10px auto;border-radius:8px;">
-<img src="./img/leleo-home-page/1737532290584.png" width="600" alt="功能预览1" style="display: block; margin: 10px auto;border-radius:8px;">
-<img src="./img/leleo-home-page/1737532316302.png" width="600" alt="功能预览2" style="display: block; margin: 10px auto;border-radius:8px;">
-
-## 功能特性
-
-- **响应式设计**：适配桌面、平板和手机等不同设备
-- **个人信息展示**：包括头像、个性标签、简介、技能等
-- **项目展示**：展示项目，包括项目描述、技术栈和链接  
-- **预览配置**：支持主题、背景壁纸预览（包括动、静态/PC、移动端壁纸设置）以及音乐播放配置
-- **在线部署配置**：支持vercel一键部署及使用vercel环境变量进行在线自定义配置
-
-## 演示地址
-
-[在线演示](https://leleo.top)
 
 ## 技术栈
-
 - **前端**：Vue
 - **UI框架**：Vuetify  
 - **构建工具**：Vite
 - **版本控制**：Git
 - **部署平台**：Vercel
 
-## 安装与运行
 
 ### 本地运行
 
-1. 克隆仓库：
 
-```bash
-git clone https://github.com/leleo886/leleo-home-page.git
-```
-
-2. 进入项目目录：
-
-```bash
-cd leleo-home-page
-```
-
-3. 安装依赖：
+1. 安装依赖：
 
 ```bash
 npm install

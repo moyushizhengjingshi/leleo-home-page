@@ -59,7 +59,8 @@ const config = {
 		{ icon: "mdi-youtube", link: "https://www.youtube.com/@xiaomeng-v9i5e" },
 		{ icon: "mdi-facebook", link: "https://www.facebook.com" }
 	],
-
+	
+	
 	//打字机
 	typeWriterStrings: [
 		"如果你看到了这行字，说明我已经成功吸引到了你的注意力。",
@@ -124,14 +125,14 @@ const config = {
 
 	//项目卡片 其中 字段"show"控制初始卡片的text是否展开
 	projectcards: [
-		{ go: "🚀 前往", img: "/img/sunshine.jpg", title: "Project 1", subtitle: "1,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🗂️ 前往", img: "/img/sunshine.jpg", title: "Project 2", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "📝 前往", img: "/img/sunshine.jpg", title: "Project 3", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "👍 前往", img: "/img/sunshine.jpg", title: "Project 4", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🗃 前往", img: "/img/sunshine.jpg", title: "Project 5", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🎨 前往", img: "/img/sunshine.jpg", title: "Project 6", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "💍 前往", img: "/img/sunshine.jpg", title: "Project 7", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
-		{ go: "🔍 前往", img: "/img/sunshine.jpg", title: "Project 8", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+		{ go: "🚀 前往", img: "/img/paimeng.jpg", title: "b站",  subtitle: "梦开始的地方", text: "所有的学习基本都来自b站", url: "https://space.bilibili.com/1073065054?spm_id_from=333.1007.0.0", show: 0 },
+		{ go: "🗂️ 前往", img: "/img/feng.jpg", title: "csdn",  subtitle: "跨过挫折的地方", text: "是各个up主的分享解决所遇到的各种环境部署、以及代码问题", url: "https://blog.csdn.net/2301_79676237?spm=1000.2115.3001.5343", show: false },
+		{ go: "📝 前往", img: "/img/yan.jpg", title: "Project 3",  subtitle: "尽", text: "", url: "", show: false },
+		{ go: "👍 前往", img: "/img/lei.jpg", title: "Project 4", subtitle: "请", text: "", url: "", show: false },
+		{ go: "🗃 前往", img: "/img/cao.jpg", title: "Project 5", subtitle: "期", text: "", url: "", show: false },
+		{ go: "🎨 前往", img: "/img/shui.jpg", title: "Project 6", subtitle: "待", text: "", url: "", show: false },
+		// { go: "💍 前往", img: "/img/sunshine.jpg", title: "Project 7", subtitle: "7,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
+		// { go: "🔍 前往", img: "/img/sunshine.jpg", title: "Project 8", subtitle: "8,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://leleo.top", show: false },
 	],
 
 	

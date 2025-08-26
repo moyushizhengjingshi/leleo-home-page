@@ -76,9 +76,11 @@
                 <div class="leleo-left-chart">
                     <polarchart :style="xs||sm?{'height':'210px'}:{'height':'270px'}"/>
                 </div>
-
+                <!-- 最外层的容器 -->
                 <v-container class="leleo-left-socialIconsContainer">
+                  <!-- 行组件 垂直对齐居中 水平对齐居中 -->
                     <v-row align="center" justify="center">
+                      <!-- 循环生成图标 -->
                     <v-col class="pa-1" cols="auto" v-for="item in socialPlatformIcons">
                         <v-btn :size="xs?25:33" variant="tonal" color="var(--leleo-vcard-color)"
                         class="ma-1 leleo-social-bticon"
@@ -88,7 +90,20 @@
                     <v-icon :icon=item.icon :size="xs?20:25" class="social-bticon-icon"></v-icon></v-btn>
                     </v-col>
                     </v-row>
-
+                    <v-row align="center" justify="center" class="mt-2"> 
+                      <v-col cols="auto" class="d-flex align-center gap-1"> 
+                        <v-icon 
+                          icon="mdi-qqchat" 
+                          :size="xs?25:33"  
+                          color="var(--leleo-vcard-color)"  
+                        ></v-icon>
+                        <span 
+                        :style="xs?{'font-size': '0.9rem', 'font-weight': '500'}:{'font-size': '1.1rem', 'font-weight': '500'}" 
+                        class="text-primary"  >
+                        12  <!-- 这里是数字，可替换为变量（如{{ unreadCount }}） -->
+                        </span>
+                      </v-col>
+                    </v-row>
                     <v-row align="center" justify="center" class="setting">
                     <v-col class="ma-1" cols="auto">
                         <v-speed-dial
