@@ -80,30 +80,84 @@
                 <v-container class="leleo-left-socialIconsContainer">
                   <!-- 行组件 垂直对齐居中 水平对齐居中 -->
                     <v-row align="center" justify="center">
-                      <!-- 循环生成图标 -->
-                    <v-col class="pa-1" cols="auto" v-for="item in socialPlatformIcons">
+                      <v-col class="pa-1" cols="auto" v-for="item in socialPlatformIcons">
+                        <!-- tonal柔和色彩 -->
                         <v-btn :size="xs?25:33" variant="tonal" color="var(--leleo-vcard-color)"
-                        class="ma-1 leleo-social-bticon"
-                        icon
-                        :href="item.link" target="_blank"
-                        >
-                    <v-icon :icon=item.icon :size="xs?20:25" class="social-bticon-icon"></v-icon></v-btn>
-                    </v-col>
-                    </v-row>
-                    <v-row align="center" justify="center" class="mt-2"> 
-                      <v-col cols="auto" class="d-flex align-center gap-1"> 
-                        <v-icon 
-                          icon="mdi-qqchat" 
-                          :size="xs?25:33"  
-                          color="var(--leleo-vcard-color)"  
-                        ></v-icon>
-                        <span 
-                        :style="xs?{'font-size': '0.9rem', 'font-weight': '500'}:{'font-size': '1.1rem', 'font-weight': '500'}" 
-                        class="text-primary"  >
-                        12  <!-- 这里是数字，可替换为变量（如{{ unreadCount }}） -->
-                        </span>
+                          class="ma-1 leleo-social-bticon"
+                          icon
+                          :href="item.link" target="_blank" >
+                          <v-icon :icon=item.icon :size="xs?20:25" class="social-bticon-icon"></v-icon>
+                        </v-btn>
                       </v-col>
                     </v-row>
+
+
+                  <v-row align="center" justify="center">
+                  <!-- 第一个按钮+文字（QQ） -->
+                  <v-col class="pa-0" cols="auto">
+                    <div style="display: flex; align-items: center; gap: 4px;"> <!-- 缩小图标与文字间距 -->
+                      <v-btn 
+                        :size="xs?20:25" 
+                        variant="tonal" 
+                        color="var(--leleo-vcard-color)"
+                        class="ma-0 leleo-social-bticon" 
+                        icon
+                      >
+                        <v-icon :icon="'mdi-qqchat'" :size="xs?15:20" class="social-bticon-icon"></v-icon>
+                      </v-btn>
+                      
+                      <!-- 文字调小：原0.9rem→0.8rem，1.1rem→1.0rem -->
+                      <span 
+                        :style="xs? { 
+                          'font-size': '0.8rem',  // 小屏幕文字更小
+                          'font-weight': '500',
+                          'color': 'rgba(255, 255, 255, 0.5)'
+                        } : { 
+                          'font-size': '0.9rem',  // 大屏幕文字同步调小
+                          'font-weight': '300',
+                          'color': 'rgba(255, 255, 255, 0.5)'
+                        }"
+                        class="social-text"
+                      >
+                        3499935986
+                      </span>
+                    </div>
+                  </v-col>
+
+                  <!-- 最小化换行间距：仅0.5单位margin（可改为mt-0彻底消除） -->
+                  <v-col cols="12"></v-col>
+
+                  <!-- 第二个按钮+文字（电话） -->
+                  <v-col class="pa-0" cols="auto">
+                    <div style="display: flex; align-items: center; gap: 4px;"> <!-- 缩小图标与文字间距 -->
+                      <v-btn 
+                        :size="xs?20:25" 
+                        variant="tonal" 
+                        color="var(--leleo-vcard-color)"
+                        class="ma-0 leleo-social-bticon" 
+                        icon
+                      >
+                        <v-icon :icon="'mdi-phone'" :size="xs?15:20" class="social-bticon-icon"></v-icon>
+                      </v-btn>
+                      
+                      <!-- 文字调小：同第一个保持一致 -->
+                      <span 
+                        :style="xs? { 
+                          'font-size': '0.6rem', 
+                          'font-weight': '300',
+                          'color': 'rgba(255, 255, 255, 0.5)'
+                        } : { 
+                          'font-size': '0.8rem', 
+                          'font-weight': '300',
+                          'color': 'rgba(255, 255, 255, 0.5)'
+                        }"
+                        class="social-text"
+                      >
+                        19510150282
+                      </span>
+                    </div>
+                  </v-col>
+                </v-row>
                     <v-row align="center" justify="center" class="setting">
                     <v-col class="ma-1" cols="auto">
                         <v-speed-dial

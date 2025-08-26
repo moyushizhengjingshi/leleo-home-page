@@ -54,8 +54,6 @@ const config = {
 	//社交按钮
 	socialPlatformIcons: [
 		{ icon: "mdi-github", link: "https://github.com/moyushizhengjingshi" },
-		{ icon: "mdi-qqchat", link: "https://im.qq.com/" },
-		{ icon: "mdi-wechat", link: "https://wx.qq.com/" },
 		{ icon: "mdi-youtube", link: "https://www.youtube.com/@xiaomeng-v9i5e" },
 		{ icon: "mdi-facebook", link: "https://www.facebook.com" }
 	],
