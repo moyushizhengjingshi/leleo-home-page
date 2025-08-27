@@ -143,7 +143,7 @@
                       <!-- 文字调小：同第一个保持一致 -->
                       <span 
                         :style="xs? { 
-                          'font-size': '0.6rem', 
+                          'font-size': '0.9rem', 
                           'font-weight': '300',
                           'color': 'rgba(255, 255, 255, 0.5)'
                         } : { 
