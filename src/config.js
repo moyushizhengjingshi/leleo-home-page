@@ -35,11 +35,11 @@ const config = {
 			},
 		},
 		"mobile": {   //移动端
-			"type": "pic",
+			"type": "video",
 			"datainfo": {
-				"title": "0001",
-				"preview": "/img/wallpaper/static-mobile/0001/image-pre.webp",
-				"url": "/img/wallpaper/static-mobile/0001/image.png"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+				"title": "情书凌华",
+				"preview": "/img/wallpaper/dynamic-mobile/情书凌华/情书凌华.mp4",
+				"url": "/img/wallpaper/dynamic-mobile/情书凌华/情书凌华.mp4"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
 			}
 		}
 
@@ -104,8 +104,8 @@ const config = {
 		videoMobile: [
 			{
 				"title": "崩铁克拉拉",
-				"preview": "/img/wallpaper/dynamic-mobile/崩铁克拉拉/public/img/wallpaper/dynamic-mobile/崩铁克拉拉/崩铁克拉拉.mp4",
-				"url": "/img/wallpaper/dynamic-mobile/崩铁克拉拉/public/img/wallpaper/dynamic-mobile/崩铁克拉拉/崩铁克拉拉.mp4"
+				"preview": "/img/wallpaper/dynamic-mobile/崩铁克拉拉/崩铁克拉拉.mp4",
+				"url": "/img/wallpaper/dynamic-mobile/崩铁克拉拉/崩铁克拉拉.mp4"
 			},
 			{
 				"title": "碧蓝档案水着2",
