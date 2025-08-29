@@ -27,11 +27,11 @@ const config = {
 	// 默认背景壁纸
 	background: {
 		"pc": {   //pc端
-			"type": "pic",   //"pic":静态壁纸;"video":动态壁纸
+			"type": "video",   //"pic":静态壁纸;"video":动态壁纸
 			"datainfo": {
-				"title": "春至",
-				"preview": "/img/wallpaper/static/春至/image-pre.webp",
-				"url": "/img/wallpaper/static/春至/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+				"title": "春至-动",
+				"preview": "/img/wallpaper/dynamic/春至-动/春至.webm",
+				"url": "/img/wallpaper/dynamic/春至-动/春至.webm",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
 			},
 		},
 		"mobile": {   //移动端
@@ -77,7 +77,6 @@ const config = {
 	wallpaper: {
 		pic: [
 			{ "title": "春至",     "preview": "/img/wallpaper/static/春至/image.webp",     "url": "/img/wallpaper/static/春至/image.png" },
-			// { "title": "pgtTqoqq", "preview": "https://s21.ax1x.com/2025/07/23/pVGlmDO.md.jpg", "url": "https://s21.ax1x.com/2025/07/23/pVGlmDO.jpg" },
 		],
 		picMobile: [
 			{ "title": "0001", "preview": "/img/wallpaper/static-mobile/0001/image-pre.webp", "url": "/img/wallpaper/static-mobile/0001/image.png" },
@@ -104,19 +103,24 @@ const config = {
 		],
 		videoMobile: [
 			{
-				"title": "幻觉镇-gaako_illust",
-				"preview": "/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town-pre.mp4",
-				"url": "/img/wallpaper/dynamic-mobile/幻觉镇-gaako_illust/Hallucination_town.mp4"
+				"title": "崩铁克拉拉",
+				"preview": "/img/wallpaper/dynamic-mobile/崩铁克拉拉/public/img/wallpaper/dynamic-mobile/崩铁克拉拉/崩铁克拉拉.mp4",
+				"url": "/img/wallpaper/dynamic-mobile/崩铁克拉拉/public/img/wallpaper/dynamic-mobile/崩铁克拉拉/崩铁克拉拉.mp4"
 			},
 			{
-				"title": "chuva",
-				"preview": "/img/wallpaper/dynamic-mobile/chuva/chuva-pre.mp4",
-				"url": "/img/wallpaper/dynamic-mobile/chuva/chuva.mp4"
+				"title": "碧蓝档案水着2",
+				"preview": "/img/wallpaper/dynamic-mobile/碧蓝档案水着2/碧蓝档案水着2.mp4",
+				"url": "/img/wallpaper/dynamic-mobile/碧蓝档案水着2/碧蓝档案水着2.mp4"
 			},
 			{
-				"title": "Doodle-小猫女仆降临",
-				"preview": "/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12-pre.mp4",
-				"url": "/img/wallpaper/dynamic-mobile/Doodle-小猫女仆降临/d12.mp4"
+				"title": "情书凌华",
+				"preview": "/img/wallpaper/dynamic-mobile/情书凌华/情书凌华.mp4",
+				"url": "/img/wallpaper/dynamic-mobile/情书凌华/情书凌华.mp4"
+			},
+			{
+				"title": "依神紫苑-晨光",
+				"preview": "/img/wallpaper/dynamic-mobile/依神紫苑-晨光/依神紫苑-晨光.mp4",
+				"url": "/img/wallpaper/dynamic-mobile/依神紫苑-晨光/依神紫苑-晨光.mp4"
 			},
 		],
 	},
