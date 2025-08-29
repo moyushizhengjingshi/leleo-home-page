@@ -1,7 +1,7 @@
 <!-- 引入组件用的 -->
 <template>
-  <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-  <script>LA.init({id:"3NH3aygzKF3wjLbn",ck:"3NH3aygzKF3wjLbn"})</script>
+  <!-- <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+  <script>LA.init({id:"3NH3aygzKF3wjLbn",ck:"3NH3aygzKF3wjLbn"})</script> -->
   <v-app class="vapp-fullscreen-background" :class="{ 'radius-before': !xs }"
   :style="xs?{height: '100%',width: '100%',top: '0',left:'0'}:(sm?{height: '98%',width: '98%',top: '1%',left:' 1%'}:{height: '96.6%',width: '99%',top: '1.7%',left:' 0.5%'})">
     <transition name="fade">
@@ -76,6 +76,7 @@
                 <div class="leleo-left-chart">
                     <polarchart :style="xs||sm?{'height':'210px'}:{'height':'270px'}"/>
                 </div>
+                <!-- <a target="_blank" title="51la网站统计" href="https://v6.51.la/land/3NH3aygzKF3wjLbn"><img src="https://sdk.51.la/icon/3-5.png"></a> -->
                 <!-- 最外层的容器 -->
                 <v-container class="leleo-left-socialIconsContainer">
                   <!-- 行组件 垂直对齐居中 水平对齐居中 -->
@@ -93,6 +94,7 @@
 
 
                   <v-row align="center" justify="center">
+                    
                   <!-- 第一个按钮+文字（QQ） -->
                   <v-col class="pa-0" cols="auto">
                     <div style="display: flex; align-items: center; gap: 4px;"> <!-- 缩小图标与文字间距 -->
