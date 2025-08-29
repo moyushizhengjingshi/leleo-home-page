@@ -27,19 +27,19 @@ const config = {
 	// 默认背景壁纸
 	background: {
 		"pc": {   //pc端
-			"type": "video",   //"pic":静态壁纸;"video":动态壁纸
+			"type": "video",  
 			"datainfo": {
 				"title": "春至-动",
 				"preview": "/img/wallpaper/dynamic/春至-动/春至.webm",
-				"url": "/img/wallpaper/dynamic/春至-动/春至.webm",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+				"url": "/img/wallpaper/dynamic/春至-动/春至.webm",     //随机PC壁纸api："url":"https://t.mwm.moe/pc"
 			},
 		},
 		"mobile": {   //移动端
-			"type": "video",
+			"type": "pic",
 			"datainfo": {
-				"title": "情书凌华",
-				"preview": "/img/wallpaper/dynamic-mobile/情书凌华/情书凌华.mp4",
-				"url": "/img/wallpaper/dynamic-mobile/情书凌华/情书凌华.mp4"  //同理，随机移动端壁纸："url":"https://t.mwm.moe/mp"
+				"title": "001",
+				"preview": "/img/wallpaper/static-mobile/0001/image-pre.webp",
+				"url": "/img/wallpaper/static-mobile/0001/001.jpg"  //："url":"https://t.mwm.moe/mp"
 			}
 		}
 
@@ -79,10 +79,10 @@ const config = {
 			{ "title": "春至",     "preview": "/img/wallpaper/static/春至/image.webp",     "url": "/img/wallpaper/static/春至/image.png" },
 		],
 		picMobile: [
-			{ "title": "0001", "preview": "/img/wallpaper/static-mobile/0001/image-pre.webp", "url": "/img/wallpaper/static-mobile/0001/image.png" },
-			{ "title": "0002", "preview": "/img/wallpaper/static-mobile/0002/image-pre.webp", "url": "/img/wallpaper/static-mobile/0002/image.png" },
-			{ "title": "0003", "preview": "/img/wallpaper/static-mobile/0003/image-pre.webp", "url": "/img/wallpaper/static-mobile/0003/image.png" },
-			{ "title": "0004", "preview": "/img/wallpaper/static-mobile/0004/image-pre.webp", "url": "/img/wallpaper/static-mobile/0004/image.png" },
+			{ "title": "0001", "preview": "/img/wallpaper/static-mobile/0001/image-pre.webp", "url": "/img/wallpaper/static-mobile/0001/001.jpg" },
+			{ "title": "0002", "preview": "/img/wallpaper/static-mobile/0002/image-pre.webp", "url": "/img/wallpaper/static-mobile/0002/002.jpg" },
+			{ "title": "0003", "preview": "/img/wallpaper/static-mobile/0003/image-pre.webp", "url": "/img/wallpaper/static-mobile/0003/003.jpg" },
+			{ "title": "0004", "preview": "/img/wallpaper/static-mobile/0004/image-pre.webp", "url": "/img/wallpaper/static-mobile/0004/004.jpg" },
 		],
 		video: [
 			{
