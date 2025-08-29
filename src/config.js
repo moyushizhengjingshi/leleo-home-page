@@ -38,7 +38,7 @@ const config = {
 			"type": "pic",
 			"datainfo": {
 				"title": "001",
-				"preview": "/img/wallpaper/static-mobile/0001/image-pre.webp",
+				"preview": "/img/wallpaper/static-mobile/0001/001.webp",
 				"url": "/img/wallpaper/static-mobile/0001/001.jpg"  //："url":"https://t.mwm.moe/mp"
 			}
 		}
@@ -79,10 +79,10 @@ const config = {
 			{ "title": "春至",     "preview": "/img/wallpaper/static/春至/image.webp",     "url": "/img/wallpaper/static/春至/image.png" },
 		],
 		picMobile: [
-			{ "title": "0001", "preview": "/img/wallpaper/static-mobile/0001/image-pre.webp", "url": "/img/wallpaper/static-mobile/0001/001.jpg" },
-			{ "title": "0002", "preview": "/img/wallpaper/static-mobile/0002/image-pre.webp", "url": "/img/wallpaper/static-mobile/0002/002.jpg" },
-			{ "title": "0003", "preview": "/img/wallpaper/static-mobile/0003/image-pre.webp", "url": "/img/wallpaper/static-mobile/0003/003.jpg" },
-			{ "title": "0004", "preview": "/img/wallpaper/static-mobile/0004/image-pre.webp", "url": "/img/wallpaper/static-mobile/0004/004.jpg" },
+			{ "title": "0001", "preview": "/img/wallpaper/static-mobile/0001/001.webp", "url": "/img/wallpaper/static-mobile/0001/001.jpg" },
+			{ "title": "0002", "preview": "/img/wallpaper/static-mobile/0002/002.webp", "url": "/img/wallpaper/static-mobile/0002/002.jpg" },
+			{ "title": "0003", "preview": "/img/wallpaper/static-mobile/0003/003.webp", "url": "/img/wallpaper/static-mobile/0003/003.jpg" },
+			{ "title": "0004", "preview": "/img/wallpaper/static-mobile/0004/004.webp", "url": "/img/wallpaper/static-mobile/0004/004.jpg" },
 		],
 		video: [
 			{
